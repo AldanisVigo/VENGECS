@@ -52,5 +52,5 @@ make
 **Run The Game**
 
 ```bash
-./bin/VENGecs
+make run
 ```
