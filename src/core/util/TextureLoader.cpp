@@ -1,0 +1,13 @@
+#include "TextureLoader.h"
+#include "sdl_init.h"   // gives gRenderer
+#include <SDL2/SDL_image.h>
+#include <iostream>
+
+SDL_Texture* loadTexture(const std::string& path) {
+    SDL_Texture* texture = IMG_LoadTexture(gRenderer, path.c_str());
+    if (!texture) {
+        std::cerr << "Failed to load texture: " << path
+                  << " Error: " << IMG_GetError() << "\n";
+    }
+    return texture;
+}
