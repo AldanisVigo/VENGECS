@@ -22,12 +22,14 @@
   Particle engine for explosions and other cool effects.
 - **Audio FX**  
   Both audio fx and background music.
-
-## Future Features
 - **Contact Detection**
   System to detect contacts between entities.
 - **Trigger Colliders**
   Colliders that don't produce a collision and can be used as triggers for doors etc.
+
+## Future Features
+- **HUD**
+  Overlay menu system coming soon
 
 
 ## Getting Started
