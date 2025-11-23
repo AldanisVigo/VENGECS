@@ -1,3 +1,8 @@
+/*
+    Author: Aldanis Vigo <aldanisvigo@gmail.com>
+    Date: Sat Nov 22 2025
+*/
+
 #include "../components/Input.h"
 #include "../components/Rigidbody.h"
 #include "../components/Sprite.h"

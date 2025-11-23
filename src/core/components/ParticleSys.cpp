@@ -1,3 +1,8 @@
+/*
+    Author: Aldanis Vigo <aldanisvigo@gmail.com>
+    Date: Sat Nov 22 2025
+*/
+
 #include "ParticleSys.h"
 #include "../components/Transform.h" // so we can offset particles by emitter position
 #include <cstdlib>

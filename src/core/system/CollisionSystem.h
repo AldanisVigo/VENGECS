@@ -1,3 +1,8 @@
+/*
+    Author: Aldanis Vigo <aldanisvigo@gmail.com>
+    Date: Sat Nov 22 2025
+*/
+
 #pragma once
 #include "../entity/Entity.h"
 #include "../components/Rigidbody.h"

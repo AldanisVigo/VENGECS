@@ -1,3 +1,8 @@
+/*
+    Author: Aldanis Vigo <aldanisvigo@gmail.com>
+    Date: Sat Nov 22 2025
+*/
+
 #pragma once
 #include <unordered_map>
 #include "../entity/Entity.h"

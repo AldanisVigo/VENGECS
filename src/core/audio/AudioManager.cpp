@@ -1,3 +1,8 @@
+/*
+    Author: Aldanis Vigo <aldanisvigo@gmail.com>
+    Date: Sat Nov 22 2025
+*/
+
 #include "AudioManager.h"
 
 std::unordered_map<std::string, AudioClip> AudioManager::audioClips;

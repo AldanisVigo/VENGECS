@@ -1,3 +1,8 @@
+/*
+    Author: Aldanis Vigo <aldanisvigo@gmail.com>
+    Date: Sat Nov 22 2025
+*/
+
 #include "SceneOne.h"
 #include "../../core/scenemanager/SceneManager.h"
 #include "../../core/util/TextureLoader.h"

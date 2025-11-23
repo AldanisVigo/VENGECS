@@ -1,3 +1,8 @@
+/*
+    Author: Aldanis Vigo <aldanisvigo@gmail.com>
+    Date: Sat Nov 22 2025
+*/
+
 #include "ParticleRenderer.h"
 #include "../util/sdl_init.h"
 #include "../components/Transform.h"  // so we can get the entity position

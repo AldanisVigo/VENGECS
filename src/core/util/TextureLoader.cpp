@@ -1,3 +1,8 @@
+/*
+    Author: Aldanis Vigo <aldanisvigo@gmail.com>
+    Date: Sat Nov 22 2025
+*/
+
 #include "TextureLoader.h"
 #include "sdl_init.h"   // gives gRenderer
 #include <SDL2/SDL_image.h>

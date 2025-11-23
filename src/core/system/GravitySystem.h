@@ -1,3 +1,8 @@
+/*
+    Author: Aldanis Vigo <aldanisvigo@gmail.com>
+    Date: Sat Nov 22 2025
+*/
+
 #include "../entity/Entity.h"
 #include "../components/Rigidbody.h"
 #include "../components/Gravity.h"
