@@ -1,6 +1,7 @@
 #pragma once
 #include "SDL2/SDL.h"
 #include "../entity/Entity.h"
+#include <unordered_map>
 
 struct Input {
     SDL_Scancode left;

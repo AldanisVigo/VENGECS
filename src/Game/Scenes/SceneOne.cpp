@@ -1,16 +1,19 @@
 #include "SceneOne.h"
 #include "../../core/scenemanager/SceneManager.h"
 #include "../../core/util/TextureLoader.h"
-
 #include "../../core/system/InputSystem.h"
 #include "../../core/system/SpriteAnimatorSystem.h"
 #include "../../core/system/GravitySystem.h"
 #include "../../core/system/MovementSystem.h"
 #include "../../core/system/CollisionSystem.h"
 #include "../../core/system/RenderSystem.h"
+#include "../../core/system/ParticleSystem.h"
+#include "../../core/system/ParticleRenderer.h"
 
 void SceneOne::onLoad() {
-     Entity player       = createEntity();
+    loadParticleTexture();
+
+    Entity player       = createEntity();
     Entity platformOne  = createEntity();
     Entity platformTwo  = createEntity();
 
@@ -61,14 +64,29 @@ void SceneOne::onLoad() {
 
     addCollider(platformTwo, 100.0f, 30.0f);
     addRigidbody(platformTwo, 0.0f, 0.0f, 3000000.0f);
+    
+
+    // Create a particle entity
+    Entity particleEmitter = createEntity();
+    addTransform(particleEmitter, transforms[player].x, transforms[player].y);
+    addParticleSystem(
+        particleEmitter,
+        1000,              // 50 particles
+        CircularSpread,    
+        1.0f,              // min lifetime (seconds)
+        1000000.0f,        // max lifetime
+        true,              // follow gravity
+        0.0f, 50.0f,       // gravity X/Y (smaller)
+        2.0f, 2.0f         // noise X/Y (smaller)
+    );
 }
 
 void SceneOne::onUpdate(float dt) {
-    // your existing update(dt) code
     inputSystem(dt);
     spriteAnimationSystem(dt);
     gravitySystem(dt);
     movementSystem(dt);
     collisionSystem(dt);
+    particleSystemUpdate(dt);  
     renderSystem();
 }

@@ -6,6 +6,7 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #include <iostream>
+#include "ParticleRenderer.h"
 
 // Global ECS maps
 extern std::unordered_map<Entity, Transform> transforms;
@@ -46,6 +47,8 @@ void renderSystem() {
 
         SDL_RenderCopyEx(gRenderer, sprite.tex, &srcRect, &dstRect, 0.0, nullptr, flip);
     }
+
+    particleRenderSystem();
 
     // Present frame
     SDL_RenderPresent(gRenderer);

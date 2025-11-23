@@ -6,8 +6,8 @@ struct Transform {
     float x, y;
 };
 
-std::unordered_map<Entity, Transform> transforms;
+// Declare the global variable
+extern std::unordered_map<Entity, Transform> transforms;
 
-void addTransform(Entity e, float x, float y) {
-    transforms[e] = { x, y };
-}
+// Declare the function
+void addTransform(Entity e, float x, float y);

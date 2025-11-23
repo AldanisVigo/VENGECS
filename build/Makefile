@@ -190,6 +190,54 @@ src/Game/Scenes/SceneOne.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.s
 .PHONY : src/Game/Scenes/SceneOne.cpp.s
 
+src/core/components/ParticleSys.o: src/core/components/ParticleSys.cpp.o
+.PHONY : src/core/components/ParticleSys.o
+
+# target to build an object file
+src/core/components/ParticleSys.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o
+.PHONY : src/core/components/ParticleSys.cpp.o
+
+src/core/components/ParticleSys.i: src/core/components/ParticleSys.cpp.i
+.PHONY : src/core/components/ParticleSys.i
+
+# target to preprocess a source file
+src/core/components/ParticleSys.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.i
+.PHONY : src/core/components/ParticleSys.cpp.i
+
+src/core/components/ParticleSys.s: src/core/components/ParticleSys.cpp.s
+.PHONY : src/core/components/ParticleSys.s
+
+# target to generate assembly for a file
+src/core/components/ParticleSys.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.s
+.PHONY : src/core/components/ParticleSys.cpp.s
+
+src/core/components/Transform.o: src/core/components/Transform.cpp.o
+.PHONY : src/core/components/Transform.o
+
+# target to build an object file
+src/core/components/Transform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o
+.PHONY : src/core/components/Transform.cpp.o
+
+src/core/components/Transform.i: src/core/components/Transform.cpp.i
+.PHONY : src/core/components/Transform.i
+
+# target to preprocess a source file
+src/core/components/Transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.i
+.PHONY : src/core/components/Transform.cpp.i
+
+src/core/components/Transform.s: src/core/components/Transform.cpp.s
+.PHONY : src/core/components/Transform.s
+
+# target to generate assembly for a file
+src/core/components/Transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.s
+.PHONY : src/core/components/Transform.cpp.s
+
 src/core/entity/Entity.o: src/core/entity/Entity.cpp.o
 .PHONY : src/core/entity/Entity.o
 
@@ -237,6 +285,30 @@ src/core/scenemanager/SceneManager.s: src/core/scenemanager/SceneManager.cpp.s
 src/core/scenemanager/SceneManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.s
 .PHONY : src/core/scenemanager/SceneManager.cpp.s
+
+src/core/system/ParticleRenderer.o: src/core/system/ParticleRenderer.cpp.o
+.PHONY : src/core/system/ParticleRenderer.o
+
+# target to build an object file
+src/core/system/ParticleRenderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o
+.PHONY : src/core/system/ParticleRenderer.cpp.o
+
+src/core/system/ParticleRenderer.i: src/core/system/ParticleRenderer.cpp.i
+.PHONY : src/core/system/ParticleRenderer.i
+
+# target to preprocess a source file
+src/core/system/ParticleRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.i
+.PHONY : src/core/system/ParticleRenderer.cpp.i
+
+src/core/system/ParticleRenderer.s: src/core/system/ParticleRenderer.cpp.s
+.PHONY : src/core/system/ParticleRenderer.s
+
+# target to generate assembly for a file
+src/core/system/ParticleRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.s
+.PHONY : src/core/system/ParticleRenderer.cpp.s
 
 src/core/util/TextureLoader.o: src/core/util/TextureLoader.cpp.o
 .PHONY : src/core/util/TextureLoader.o
@@ -326,12 +398,21 @@ help:
 	@echo "... src/Game/Scenes/SceneOne.o"
 	@echo "... src/Game/Scenes/SceneOne.i"
 	@echo "... src/Game/Scenes/SceneOne.s"
+	@echo "... src/core/components/ParticleSys.o"
+	@echo "... src/core/components/ParticleSys.i"
+	@echo "... src/core/components/ParticleSys.s"
+	@echo "... src/core/components/Transform.o"
+	@echo "... src/core/components/Transform.i"
+	@echo "... src/core/components/Transform.s"
 	@echo "... src/core/entity/Entity.o"
 	@echo "... src/core/entity/Entity.i"
 	@echo "... src/core/entity/Entity.s"
 	@echo "... src/core/scenemanager/SceneManager.o"
 	@echo "... src/core/scenemanager/SceneManager.i"
 	@echo "... src/core/scenemanager/SceneManager.s"
+	@echo "... src/core/system/ParticleRenderer.o"
+	@echo "... src/core/system/ParticleRenderer.i"
+	@echo "... src/core/system/ParticleRenderer.s"
 	@echo "... src/core/util/TextureLoader.o"
 	@echo "... src/core/util/TextureLoader.i"
 	@echo "... src/core/util/TextureLoader.s"

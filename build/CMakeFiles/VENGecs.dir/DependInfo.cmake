@@ -10,8 +10,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Game.cpp" "CMakeFiles/VENGecs.dir/src/Game/Game.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/Game/Game.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/SceneOne.cpp" "CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o.d"
+  "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/components/ParticleSys.cpp" "CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o.d"
+  "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/components/Transform.cpp" "CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/entity/Entity.cpp" "CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/scenemanager/SceneManager.cpp" "CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.o.d"
+  "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/system/ParticleRenderer.cpp" "CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/util/TextureLoader.cpp" "CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/util/sdl_init.cpp" "CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/main.cpp" "CMakeFiles/VENGecs.dir/src/main.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/main.cpp.o.d"
