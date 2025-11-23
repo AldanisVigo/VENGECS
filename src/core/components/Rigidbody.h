@@ -20,9 +20,7 @@ struct Rigidbody {
     Mass mass;
 };
 
-std::unordered_map<Entity, Rigidbody> rigidbodies;
+extern std::unordered_map<Entity, Rigidbody> rigidbodies;
 
 
-void addRigidbody(Entity e, float dx, float dy, float mass) {
-    rigidbodies[e] = {{dx,dy},mass};
-}
+extern void addRigidbody(Entity e, float dx, float dy, float mass);

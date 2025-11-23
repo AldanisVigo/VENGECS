@@ -5,7 +5,6 @@
 
 #pragma once
 #include "../../core/scenemanager/Scene.h"
-#include "../../core/util/TextureLoader.h"
 #include "../../core/entity/Entity.h"
 
 class SceneOne : public Scene {
@@ -13,4 +12,7 @@ public:
     void onLoad() override;
     void onUpdate(float dt) override;
     void onUnload() override {}
+
+private:
+    Entity bushOne, bushTwo;
 };

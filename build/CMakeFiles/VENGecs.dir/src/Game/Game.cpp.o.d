@@ -350,6 +350,7 @@ CMakeFiles/VENGecs.dir/src/Game/Game.cpp.o: \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_version.h \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_locale.h \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_misc.h \
+  /opt/homebrew/Cellar/sdl2_image/2.8.8/include/SDL2/SDL_image.h \
   /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/../core/scenemanager/SceneManager.h \
   /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/../core/scenemanager/Scene.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
@@ -743,10 +744,7 @@ CMakeFiles/VENGecs.dir/src/Game/Game.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h \
   /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/SceneOne.h \
   /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/scenemanager/Scene.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/util/TextureLoader.h \
   /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/entity/Entity.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/../core/util/sdl_init.h \
-  /opt/homebrew/Cellar/sdl2_image/2.8.8/include/SDL2/SDL_image.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale \

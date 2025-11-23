@@ -4,16 +4,14 @@
 */
 
 #include "Game.h"
+#include <SDL2/SDL_image.h>
 #include "../core/scenemanager/SceneManager.h"
 #include "Scenes/SceneOne.h"
-#include "../core/util/sdl_init.h" // <-- brings in gWindow and gRenderer
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
 #include <iostream>
 
 bool Game::running = true;
 
-bool Game::init(const char* title, int width, int height)
+bool Game::init(const char* title, int width, int height, bool fs)
 {
     if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER) != 0) {
         std::cerr << "SDL_Init Error: " << SDL_GetError() << "\n";
@@ -24,7 +22,7 @@ bool Game::init(const char* title, int width, int height)
         title,
         SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
         width, height,
-        SDL_WINDOW_SHOWN
+        fs ? SDL_WINDOW_FULLSCREEN : SDL_WINDOW_SHOWN
     );
 
     if (!gWindow) {
@@ -74,10 +72,8 @@ void Game::run()
         float dt = (now - prev) / 1000.0f;
         prev = now;
 
-        // ⛔ If window NOT focused → freeze physics
         if (!SceneManager::windowFocused) {
-            dt = 0.0f;      // <- Makes gravity & motion stop
-            std::cout << "[Game] Window not focused, dt=0\n";
+            dt = 0.0f;      
         }else{
             SceneManager::update(dt);
         }
@@ -87,7 +83,6 @@ void Game::run()
 
 void Game::shutdown()
 {
-    // Unload the current scene
     SceneManager::unloadCurrent();
 
     if (gRenderer) SDL_DestroyRenderer(gRenderer);

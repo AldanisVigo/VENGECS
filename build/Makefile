@@ -214,6 +214,30 @@ src/core/audio/AudioManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.s
 .PHONY : src/core/audio/AudioManager.cpp.s
 
+src/core/components/Collider.o: src/core/components/Collider.cpp.o
+.PHONY : src/core/components/Collider.o
+
+# target to build an object file
+src/core/components/Collider.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/Collider.cpp.o
+.PHONY : src/core/components/Collider.cpp.o
+
+src/core/components/Collider.i: src/core/components/Collider.cpp.i
+.PHONY : src/core/components/Collider.i
+
+# target to preprocess a source file
+src/core/components/Collider.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/Collider.cpp.i
+.PHONY : src/core/components/Collider.cpp.i
+
+src/core/components/Collider.s: src/core/components/Collider.cpp.s
+.PHONY : src/core/components/Collider.s
+
+# target to generate assembly for a file
+src/core/components/Collider.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/Collider.cpp.s
+.PHONY : src/core/components/Collider.cpp.s
+
 src/core/components/ParticleSys.o: src/core/components/ParticleSys.cpp.o
 .PHONY : src/core/components/ParticleSys.o
 
@@ -237,6 +261,30 @@ src/core/components/ParticleSys.s: src/core/components/ParticleSys.cpp.s
 src/core/components/ParticleSys.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.s
 .PHONY : src/core/components/ParticleSys.cpp.s
+
+src/core/components/Rigidbody.o: src/core/components/Rigidbody.cpp.o
+.PHONY : src/core/components/Rigidbody.o
+
+# target to build an object file
+src/core/components/Rigidbody.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/Rigidbody.cpp.o
+.PHONY : src/core/components/Rigidbody.cpp.o
+
+src/core/components/Rigidbody.i: src/core/components/Rigidbody.cpp.i
+.PHONY : src/core/components/Rigidbody.i
+
+# target to preprocess a source file
+src/core/components/Rigidbody.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/Rigidbody.cpp.i
+.PHONY : src/core/components/Rigidbody.cpp.i
+
+src/core/components/Rigidbody.s: src/core/components/Rigidbody.cpp.s
+.PHONY : src/core/components/Rigidbody.s
+
+# target to generate assembly for a file
+src/core/components/Rigidbody.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/components/Rigidbody.cpp.s
+.PHONY : src/core/components/Rigidbody.cpp.s
 
 src/core/components/Transform.o: src/core/components/Transform.cpp.o
 .PHONY : src/core/components/Transform.o
@@ -310,6 +358,30 @@ src/core/scenemanager/SceneManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.s
 .PHONY : src/core/scenemanager/SceneManager.cpp.s
 
+src/core/system/CollisionSystem.o: src/core/system/CollisionSystem.cpp.o
+.PHONY : src/core/system/CollisionSystem.o
+
+# target to build an object file
+src/core/system/CollisionSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/system/CollisionSystem.cpp.o
+.PHONY : src/core/system/CollisionSystem.cpp.o
+
+src/core/system/CollisionSystem.i: src/core/system/CollisionSystem.cpp.i
+.PHONY : src/core/system/CollisionSystem.i
+
+# target to preprocess a source file
+src/core/system/CollisionSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/system/CollisionSystem.cpp.i
+.PHONY : src/core/system/CollisionSystem.cpp.i
+
+src/core/system/CollisionSystem.s: src/core/system/CollisionSystem.cpp.s
+.PHONY : src/core/system/CollisionSystem.s
+
+# target to generate assembly for a file
+src/core/system/CollisionSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/system/CollisionSystem.cpp.s
+.PHONY : src/core/system/CollisionSystem.cpp.s
+
 src/core/system/ParticleRenderer.o: src/core/system/ParticleRenderer.cpp.o
 .PHONY : src/core/system/ParticleRenderer.o
 
@@ -334,6 +406,30 @@ src/core/system/ParticleRenderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.s
 .PHONY : src/core/system/ParticleRenderer.cpp.s
 
+src/core/util/Globals.o: src/core/util/Globals.cpp.o
+.PHONY : src/core/util/Globals.o
+
+# target to build an object file
+src/core/util/Globals.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/util/Globals.cpp.o
+.PHONY : src/core/util/Globals.cpp.o
+
+src/core/util/Globals.i: src/core/util/Globals.cpp.i
+.PHONY : src/core/util/Globals.i
+
+# target to preprocess a source file
+src/core/util/Globals.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/util/Globals.cpp.i
+.PHONY : src/core/util/Globals.cpp.i
+
+src/core/util/Globals.s: src/core/util/Globals.cpp.s
+.PHONY : src/core/util/Globals.s
+
+# target to generate assembly for a file
+src/core/util/Globals.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/util/Globals.cpp.s
+.PHONY : src/core/util/Globals.cpp.s
+
 src/core/util/TextureLoader.o: src/core/util/TextureLoader.cpp.o
 .PHONY : src/core/util/TextureLoader.o
 
@@ -357,30 +453,6 @@ src/core/util/TextureLoader.s: src/core/util/TextureLoader.cpp.s
 src/core/util/TextureLoader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.s
 .PHONY : src/core/util/TextureLoader.cpp.s
-
-src/core/util/sdl_init.o: src/core/util/sdl_init.cpp.o
-.PHONY : src/core/util/sdl_init.o
-
-# target to build an object file
-src/core/util/sdl_init.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o
-.PHONY : src/core/util/sdl_init.cpp.o
-
-src/core/util/sdl_init.i: src/core/util/sdl_init.cpp.i
-.PHONY : src/core/util/sdl_init.i
-
-# target to preprocess a source file
-src/core/util/sdl_init.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.i
-.PHONY : src/core/util/sdl_init.cpp.i
-
-src/core/util/sdl_init.s: src/core/util/sdl_init.cpp.s
-.PHONY : src/core/util/sdl_init.s
-
-# target to generate assembly for a file
-src/core/util/sdl_init.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.s
-.PHONY : src/core/util/sdl_init.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -425,9 +497,15 @@ help:
 	@echo "... src/core/audio/AudioManager.o"
 	@echo "... src/core/audio/AudioManager.i"
 	@echo "... src/core/audio/AudioManager.s"
+	@echo "... src/core/components/Collider.o"
+	@echo "... src/core/components/Collider.i"
+	@echo "... src/core/components/Collider.s"
 	@echo "... src/core/components/ParticleSys.o"
 	@echo "... src/core/components/ParticleSys.i"
 	@echo "... src/core/components/ParticleSys.s"
+	@echo "... src/core/components/Rigidbody.o"
+	@echo "... src/core/components/Rigidbody.i"
+	@echo "... src/core/components/Rigidbody.s"
 	@echo "... src/core/components/Transform.o"
 	@echo "... src/core/components/Transform.i"
 	@echo "... src/core/components/Transform.s"
@@ -437,15 +515,18 @@ help:
 	@echo "... src/core/scenemanager/SceneManager.o"
 	@echo "... src/core/scenemanager/SceneManager.i"
 	@echo "... src/core/scenemanager/SceneManager.s"
+	@echo "... src/core/system/CollisionSystem.o"
+	@echo "... src/core/system/CollisionSystem.i"
+	@echo "... src/core/system/CollisionSystem.s"
 	@echo "... src/core/system/ParticleRenderer.o"
 	@echo "... src/core/system/ParticleRenderer.i"
 	@echo "... src/core/system/ParticleRenderer.s"
+	@echo "... src/core/util/Globals.o"
+	@echo "... src/core/util/Globals.i"
+	@echo "... src/core/util/Globals.s"
 	@echo "... src/core/util/TextureLoader.o"
 	@echo "... src/core/util/TextureLoader.i"
 	@echo "... src/core/util/TextureLoader.s"
-	@echo "... src/core/util/sdl_init.o"
-	@echo "... src/core/util/sdl_init.i"
-	@echo "... src/core/util/sdl_init.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

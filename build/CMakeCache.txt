@@ -198,41 +198,8 @@ CMAKE_TAPI:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeD
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Path to a file.
-JPEG_INCLUDE_DIR:PATH=/Library/Frameworks/Mono.framework/Headers
-
-//Path to a library.
-JPEG_LIBRARY_DEBUG:FILEPATH=JPEG_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-JPEG_LIBRARY_RELEASE:FILEPATH=/opt/homebrew/lib/libjpeg.dylib
-
-//Path to a library.
-PNG_LIBRARY_DEBUG:FILEPATH=PNG_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-PNG_LIBRARY_RELEASE:FILEPATH=/opt/homebrew/lib/libpng.dylib
-
-//Path to a file.
-PNG_PNG_INCLUDE_DIR:PATH=/Library/Frameworks/Mono.framework/Headers
-
 //The directory containing a CMake configuration file for SDL2.
 SDL2_DIR:PATH=/opt/homebrew/lib/cmake/SDL2
-
-//The directory containing a CMake configuration file for SDL2_image.
-SDL2_image_DIR:PATH=/opt/homebrew/lib/cmake/SDL2_image
-
-//Path to a file.
-TIFF_INCLUDE_DIR:PATH=/Library/Frameworks/Mono.framework/Headers
-
-//Path to a library.
-TIFF_LIBRARY_DEBUG:FILEPATH=TIFF_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-TIFF_LIBRARY_RELEASE:FILEPATH=/opt/homebrew/lib/libtiff.dylib
-
-//The directory containing a CMake configuration file for Tiff.
-Tiff_DIR:PATH=Tiff_DIR-NOTFOUND
 
 //Value Computed by CMake
 VENGecs_BINARY_DIR:STATIC=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build
@@ -242,63 +209,6 @@ VENGecs_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 VENGecs_SOURCE_DIR:STATIC=/Users/vigobeatz/Documents/Programming/CPP/VENGecs
-
-//Path to a file.
-ZLIB_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
-
-//Path to a library.
-ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-ZLIB_LIBRARY_RELEASE:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libz.tbd
-
-//The directory containing a CMake configuration file for libavif.
-libavif_DIR:PATH=/opt/homebrew/lib/cmake/libavif
-
-//Extra compile options of libjxl
-libjxl_COMPILE_OPTIONS:STRING=
-
-//Path to a file.
-libjxl_INCLUDE_PATH:PATH=/opt/homebrew/include
-
-//Path to a library.
-libjxl_LIBRARY:FILEPATH=/opt/homebrew/lib/libjxl.dylib
-
-//Extra link flags of libjxl
-libjxl_LINK_FLAGS:STRING=
-
-//Extra link libraries of libjxl
-libjxl_LINK_LIBRARIES:STRING=
-
-//Extra compile options of webp
-webp_COMPILE_OPTIONS:STRING=
-
-//Path to a file.
-webp_INCLUDE_PATH:PATH=/opt/homebrew/include
-
-//Path to a library.
-webp_LIBRARY:FILEPATH=/opt/homebrew/lib/libwebp.dylib
-
-//Extra link flags of webp
-webp_LINK_FLAGS:STRING=
-
-//Extra link libraries of webp
-webp_LINK_LIBRARIES:STRING=
-
-//Extra compile options of webpdemux
-webpdemux_COMPILE_OPTIONS:STRING=
-
-//Path to a file.
-webpdemux_INCLUDE_PATH:PATH=/opt/homebrew/include
-
-//Path to a library.
-webpdemux_LIBRARY:FILEPATH=/opt/homebrew/lib/libwebpdemux.dylib
-
-//Extra link flags of webpdemux
-webpdemux_LINK_FLAGS:STRING=
-
-//Extra link libraries of webpdemux
-webpdemux_LINK_LIBRARIES:STRING=
 
 
 ########################
@@ -434,40 +344,4 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding JPEG
-FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[/opt/homebrew/lib/libjpeg.dylib][/Library/Frameworks/Mono.framework/Headers][v80()]
-//Details about finding PNG
-FIND_PACKAGE_MESSAGE_DETAILS_PNG:INTERNAL=[/opt/homebrew/lib/libpng.dylib][/Library/Frameworks/Mono.framework/Headers][v1.4.12()]
-//Details about finding TIFF
-FIND_PACKAGE_MESSAGE_DETAILS_TIFF:INTERNAL=[/opt/homebrew/lib/libtiff.dylib][/Library/Frameworks/Mono.framework/Headers][ ][v4.0.9()]
-//Details about finding ZLIB
-FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libz.tbd][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include][ ][v1.2.12()]
-//Details about finding libjxl
-FIND_PACKAGE_MESSAGE_DETAILS_libjxl:INTERNAL=[/opt/homebrew/lib/libjxl.dylib][/opt/homebrew/include][v()]
-//Details about finding webp
-FIND_PACKAGE_MESSAGE_DETAILS_webp:INTERNAL=[/opt/homebrew/lib/libwebp.dylib][/opt/homebrew/include][/opt/homebrew/lib/libwebpdemux.dylib][/opt/homebrew/include][v()]
-//ADVANCED property for variable: JPEG_INCLUDE_DIR
-JPEG_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: JPEG_LIBRARY_DEBUG
-JPEG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: JPEG_LIBRARY_RELEASE
-JPEG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PNG_LIBRARY_DEBUG
-PNG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PNG_LIBRARY_RELEASE
-PNG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PNG_PNG_INCLUDE_DIR
-PNG_PNG_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: TIFF_INCLUDE_DIR
-TIFF_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: TIFF_LIBRARY_DEBUG
-TIFF_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: TIFF_LIBRARY_RELEASE
-TIFF_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_INCLUDE_DIR
-ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
-ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
-ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 

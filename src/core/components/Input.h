@@ -14,11 +14,13 @@ struct Input {
     SDL_Scancode up;
     SDL_Scancode down;
     SDL_Scancode jump;
+    SDL_Scancode quit;
+    SDL_Scancode attack;
     float movementSpeed;
 };
 
 inline std::unordered_map<Entity, Input> inputs;
 
-inline void addInput(Entity entity, SDL_Scancode left, SDL_Scancode right, SDL_Scancode up, SDL_Scancode down, SDL_Scancode jump, float movementSpeed) {
-    inputs[entity] = { left, right, up, down, jump, movementSpeed };
+inline void addInput(Entity entity, SDL_Scancode left, SDL_Scancode right, SDL_Scancode up, SDL_Scancode down, SDL_Scancode jump, SDL_Scancode quit, SDL_Scancode attack, float movementSpeed) {
+    inputs[entity] = { left, right, up, down, jump, quit, attack, movementSpeed };
 }

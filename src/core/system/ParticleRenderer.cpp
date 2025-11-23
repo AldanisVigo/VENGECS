@@ -4,7 +4,7 @@
 */
 
 #include "ParticleRenderer.h"
-#include "../util/sdl_init.h"
+#include "../util/Globals.h"
 #include "../components/Transform.h"  // so we can get the entity position
 #include <iostream>
 

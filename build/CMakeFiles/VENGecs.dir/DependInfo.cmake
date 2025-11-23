@@ -11,13 +11,16 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Game.cpp" "CMakeFiles/VENGecs.dir/src/Game/Game.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/Game/Game.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/SceneOne.cpp" "CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/audio/AudioManager.cpp" "CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o.d"
+  "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/components/Collider.cpp" "CMakeFiles/VENGecs.dir/src/core/components/Collider.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/components/Collider.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/components/ParticleSys.cpp" "CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o.d"
+  "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/components/Rigidbody.cpp" "CMakeFiles/VENGecs.dir/src/core/components/Rigidbody.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/components/Rigidbody.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/components/Transform.cpp" "CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/entity/Entity.cpp" "CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/scenemanager/SceneManager.cpp" "CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.o.d"
+  "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/system/CollisionSystem.cpp" "CMakeFiles/VENGecs.dir/src/core/system/CollisionSystem.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/system/CollisionSystem.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/system/ParticleRenderer.cpp" "CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o.d"
+  "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/util/Globals.cpp" "CMakeFiles/VENGecs.dir/src/core/util/Globals.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/util/Globals.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/util/TextureLoader.cpp" "CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.o.d"
-  "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/util/sdl_init.cpp" "CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/main.cpp" "CMakeFiles/VENGecs.dir/src/main.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/main.cpp.o.d"
   )
 

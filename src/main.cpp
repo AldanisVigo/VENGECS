@@ -8,8 +8,7 @@
 
 int main() {
     Game game;
-
-    if (!game.init("VENGecs", 800, 600)) {
+    if (!game.init("VENGecs", 1024, 1080, false)) {
         std::cout << "Failed to initialize SDL / game\n"; 
         return 1; // Failed to initialize SDL / game
     }

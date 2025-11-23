@@ -47,6 +47,8 @@
         "variant": "cpp",
         "vector": "cpp",
         "algorithm": "cpp",
-        "codecvt": "cpp"
+        "codecvt": "cpp",
+        "concepts": "cpp",
+        "numeric": "cpp"
     }
 }

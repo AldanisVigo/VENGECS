@@ -4,7 +4,7 @@
 */
 
 #include "TextureLoader.h"
-#include "sdl_init.h"   // gives gRenderer
+#include "Globals.h"   // gives gRenderer
 #include <SDL2/SDL_image.h>
 #include <iostream>
 
