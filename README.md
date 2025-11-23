@@ -24,7 +24,7 @@
   Both audio fx and background music.
 - **Contact Detection**  
   System to detect contacts between entities.
-- **Trigger Colliders**. 
+- **Trigger Colliders**  
   Colliders that don't produce a collision and can be used as triggers for doors etc.
 
 ## Future Features
