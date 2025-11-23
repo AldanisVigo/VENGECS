@@ -20,11 +20,14 @@
   Easy-to-use wrapper for window and renderer management.
 - **Particle Engine**  
   Particle engine for explosions and other cool effects.
-
+- **Audio FX**  
+  Both audio fx and background music.
 
 ## Future Features
-- **Audio**
-  Both sound effects and background music.
+- **Contact Detection**
+  System to detect contacts between entities.
+- **Trigger Colliders**
+  Colliders that don't produce a collision and can be used as triggers for doors etc.
 
 
 ## Getting Started
