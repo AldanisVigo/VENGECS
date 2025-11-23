@@ -750,14 +750,8 @@ CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o: \
   /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/../components/Sprite.h \
   /opt/homebrew/Cellar/sdl2_image/2.8.8/include/SDL2/SDL_image.h \
   /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/../components/Gravity.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/SpriteAnimatorSystem.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/GravitySystem.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/../entity/Entity.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/MovementSystem.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/../components/Transform.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/CollisionSystem.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/../components/Collider.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/RenderSystem.h \
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/../audio/AudioManager.h \
+  /opt/homebrew/Cellar/sdl2_mixer/2.8.1_1/include/SDL2/SDL_mixer.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale \
@@ -877,7 +871,7 @@ CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/ParticleRenderer.h \
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/../components/Transform.h \
   /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/../components/ParticleSys.h \
   /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/../components/Particle.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/random \
@@ -931,5 +925,14 @@ CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/SpriteAnimatorSystem.h \
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/GravitySystem.h \
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/../entity/Entity.h \
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/MovementSystem.h \
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/CollisionSystem.h \
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/../components/Collider.h \
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/RenderSystem.h \
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/ParticleRenderer.h \
   /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/../util/TextureLoader.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/ParticleSystem.h
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/system/ParticleSystem.h \
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/audio/AudioManager.h

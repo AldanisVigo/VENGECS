@@ -37,13 +37,13 @@
 **macOS (Homebrew)**
 
 ```bash
-brew install sdl2 sdl2_image
+brew install sdl2 sdl2_image sdl2_mixer
 ```
 
 **Linux (APT)**
 
 ```bash
-sudo apt install libsdl2-dev libsdl2-image-dev
+sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev
 ```
 
 **Build**

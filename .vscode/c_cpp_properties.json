@@ -6,7 +6,8 @@
                 "${workspaceFolder}/**",
                 "/opt/homebrew/Cellar/sdl2/2.32.10/include",
                 "/opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2",
-                "/opt/homebrew/Cellar/sdl2_image/2.8.8/include"
+                "/opt/homebrew/Cellar/sdl2_image/2.8.8/include",
+                "/opt/homebrew/Cellar/sdl2_mixer/2.8.1_1/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",

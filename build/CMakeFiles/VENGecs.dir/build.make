@@ -100,10 +100,24 @@ CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/SceneOne.cpp -o CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.s
 
+CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o: CMakeFiles/VENGecs.dir/flags.make
+CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o: /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/audio/AudioManager.cpp
+CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o: CMakeFiles/VENGecs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o -MF CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o.d -o CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o -c /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/audio/AudioManager.cpp
+
+CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/audio/AudioManager.cpp > CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.i
+
+CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/audio/AudioManager.cpp -o CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.s
+
 CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o: CMakeFiles/VENGecs.dir/flags.make
 CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o: /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/components/ParticleSys.cpp
 CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o: CMakeFiles/VENGecs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o -MF CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o.d -o CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o -c /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/components/ParticleSys.cpp
 
 CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.s: cmake_force
 CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o: CMakeFiles/VENGecs.dir/flags.make
 CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o: /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/components/Transform.cpp
 CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o: CMakeFiles/VENGecs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o -MF CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o.d -o CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o -c /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/components/Transform.cpp
 
 CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.s: cmake_force
 CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o: CMakeFiles/VENGecs.dir/flags.make
 CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o: /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/entity/Entity.cpp
 CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o: CMakeFiles/VENGecs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o -MF CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o.d -o CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o -c /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/entity/Entity.cpp
 
 CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.s: cmake_force
 CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.o: CMakeFiles/VENGecs.dir/flags.make
 CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.o: /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/scenemanager/SceneManager.cpp
 CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.o: CMakeFiles/VENGecs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.o -MF CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.o.d -o CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.o -c /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/scenemanager/SceneManager.cpp
 
 CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/VENGecs.dir/src/core/scenemanager/SceneManager.cpp.s: cmake_force
 CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o: CMakeFiles/VENGecs.dir/flags.make
 CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o: /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/system/ParticleRenderer.cpp
 CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o: CMakeFiles/VENGecs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o -MF CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o.d -o CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.o -c /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/system/ParticleRenderer.cpp
 
 CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/VENGecs.dir/src/core/system/ParticleRenderer.cpp.s: cmake_force
 CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.o: CMakeFiles/VENGecs.dir/flags.make
 CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.o: /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/util/TextureLoader.cpp
 CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.o: CMakeFiles/VENGecs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.o -MF CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.o.d -o CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.o -c /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/util/TextureLoader.cpp
 
 CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/VENGecs.dir/src/core/util/TextureLoader.cpp.s: cmake_force
 CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o: CMakeFiles/VENGecs.dir/flags.make
 CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o: /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/util/sdl_init.cpp
 CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o: CMakeFiles/VENGecs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o -MF CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o.d -o CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.o -c /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/util/sdl_init.cpp
 
 CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.i: cmake_force
@@ -201,7 +215,7 @@ CMakeFiles/VENGecs.dir/src/core/util/sdl_init.cpp.s: cmake_force
 CMakeFiles/VENGecs.dir/src/main.cpp.o: CMakeFiles/VENGecs.dir/flags.make
 CMakeFiles/VENGecs.dir/src/main.cpp.o: /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/main.cpp
 CMakeFiles/VENGecs.dir/src/main.cpp.o: CMakeFiles/VENGecs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/VENGecs.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/VENGecs.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VENGecs.dir/src/main.cpp.o -MF CMakeFiles/VENGecs.dir/src/main.cpp.o.d -o CMakeFiles/VENGecs.dir/src/main.cpp.o -c /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/main.cpp
 
 CMakeFiles/VENGecs.dir/src/main.cpp.i: cmake_force
@@ -216,6 +230,7 @@ CMakeFiles/VENGecs.dir/src/main.cpp.s: cmake_force
 VENGecs_OBJECTS = \
 "CMakeFiles/VENGecs.dir/src/Game/Game.cpp.o" \
 "CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o" \
+"CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o" \
 "CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o" \
 "CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o" \
 "CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o" \
@@ -230,6 +245,7 @@ VENGecs_EXTERNAL_OBJECTS =
 
 /Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs: CMakeFiles/VENGecs.dir/src/Game/Game.cpp.o
 /Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs: CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o
+/Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs: CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o
 /Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs: CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o
 /Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs: CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o
 /Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs: CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o
@@ -241,8 +257,9 @@ VENGecs_EXTERNAL_OBJECTS =
 /Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs: CMakeFiles/VENGecs.dir/build.make
 /Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs: /opt/homebrew/Cellar/sdl2/2.32.10/lib/libSDL2.dylib
 /Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs: /opt/homebrew/Cellar/sdl2_image/2.8.8/lib/libSDL2_image.dylib
+/Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs: /opt/homebrew/Cellar/sdl2_mixer/2.8.1_1/lib/libSDL2_mixer.dylib
 /Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs: CMakeFiles/VENGecs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable /Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vigobeatz/Documents/Programming/CPP/VENGecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable /Users/vigobeatz/Documents/Programming/CPP/VENGecs/bin/VENGecs"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VENGecs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

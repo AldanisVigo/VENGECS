@@ -9,9 +9,16 @@
 #include "../../core/system/RenderSystem.h"
 #include "../../core/system/ParticleSystem.h"
 #include "../../core/system/ParticleRenderer.h"
+#include "../../core/audio/AudioManager.h"
 
 void SceneOne::onLoad() {
     loadParticleTexture();
+    if (!AudioManager::init()) return;
+
+    AudioManager::loadMusic("bgm", "../assets/background.mp3");
+    AudioManager::playMusic("bgm");
+
+    AudioManager::loadSFX("jump", "../assets/boom.mp3");
 
     Entity player       = createEntity();
     Entity platformOne  = createEntity();
@@ -40,7 +47,7 @@ void SceneOne::onLoad() {
 
     addCollider(player,   18.0f, 35.0f);
     addRigidbody(player,  20.0, 0, 100.0f);
-    addGravity(player,    20.0);
+    addGravity(player,    50.0);
     addInput(player, SDL_SCANCODE_A, SDL_SCANCODE_D,
                      SDL_SCANCODE_W, SDL_SCANCODE_S,
                      SDL_SCANCODE_SPACE, 20.0f);
@@ -66,6 +73,16 @@ void SceneOne::onLoad() {
     addRigidbody(platformTwo, 0.0f, 0.0f, 3000000.0f);
     
 
+    // Add an animated bush to the scene
+    Entity bushOne = createEntity();
+    std::unordered_map<std::string, Animation> bushAnims = {
+        {"sway",   {0, 2, 0.2f, 0.0f}},
+    };
+    float bushX = transforms[platformTwo].x + (sprites[platformTwo].width - 25.0f) / 2; // center bush
+    float bushY = transforms[platformTwo].y - 28.0f; // top of bush sits on top of platform
+    addTransform(bushOne, bushX, bushY);
+    addSprite(bushOne, loadTexture("../assets/bush.png"), 25.0f, 28.0f, bushAnims, "sway", false);
+
     // Create a particle entity
     Entity particleEmitter = createEntity();
     addTransform(particleEmitter, transforms[player].x, transforms[player].y);
@@ -82,6 +99,13 @@ void SceneOne::onLoad() {
 }
 
 void SceneOne::onUpdate(float dt) {
+    if (!SceneManager::windowFocused) {
+        // Still render so you see your paused frame
+        std::cout << "DT=0\n";
+        renderSystem();
+        return;
+    }
+    
     inputSystem(dt);
     spriteAnimationSystem(dt);
     gravitySystem(dt);

@@ -2,6 +2,9 @@
 #include "../components/Rigidbody.h"
 #include "../components/Sprite.h"
 #include "../components/Gravity.h"
+#include "../audio/AudioManager.h"
+#include "../components/Transform.h"
+#include "../components/ParticleSys.h"
 
 inline void inputSystem(float dt) {
     const Uint8* keyState = SDL_GetKeyboardState(nullptr);
@@ -18,7 +21,22 @@ inline void inputSystem(float dt) {
         if (keyState[input.jump]) {
             // Only jump if touching ground (we need a 'grounded' check)
             if(gravities.count(entity) && body.velocity.dy == 0.0f) {
-                body.velocity.dy = -40.0f;  // set upward impulse
+                // later, when player jumps
+                AudioManager::playSFX("jump");
+                // Create a particle entity
+                Entity particleEmitter = createEntity();
+                addTransform(particleEmitter, transforms[entity].x + 9.0f , transforms[entity].y + 35.0f);
+                addParticleSystem(
+                    particleEmitter,
+                    50,           // 50 particles
+                    Linear,    
+                    1.0f,           // min lifetime (seconds)
+                    2.0f,           // max lifetime
+                    true,           // follow gravity
+                    0.0f, -42.0f,   // gravity X/Y (smaller)
+                    100.0f, 100.0f  // noise X/Y (smaller)
+                );
+                body.velocity.dy = -60.0f;  // set upward impulse
             }
         }
 

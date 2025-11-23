@@ -31,6 +31,13 @@ set(SDL2_IMAGE_LIBRARY /opt/homebrew/Cellar/sdl2_image/2.8.8/lib/libSDL2_image.d
 include_directories(${SDL2_IMAGE_INCLUDE_DIR})
 target_link_libraries(VENGecs ${SDL2_IMAGE_LIBRARY})
 
+# ---- SDL2_mixer Integration ----
+set(SDL2_MIXER_INCLUDE_DIR /opt/homebrew/Cellar/sdl2_mixer/2.8.1_1/include)
+set(SDL2_MIXER_LIBRARY /opt/homebrew/Cellar/sdl2_mixer/2.8.1_1/lib/libSDL2_mixer.dylib)
+
+include_directories(${SDL2_MIXER_INCLUDE_DIR})
+target_link_libraries(VENGecs ${SDL2_MIXER_LIBRARY})
+
 # ---- Run Target ----
 add_custom_target(run
     COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/VENGecs

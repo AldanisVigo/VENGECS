@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Game.cpp" "CMakeFiles/VENGecs.dir/src/Game/Game.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/Game/Game.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/SceneOne.cpp" "CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o.d"
+  "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/audio/AudioManager.cpp" "CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/components/ParticleSys.cpp" "CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/components/Transform.cpp" "CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o.d"
   "/Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/entity/Entity.cpp" "CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o" "gcc" "CMakeFiles/VENGecs.dir/src/core/entity/Entity.cpp.o.d"

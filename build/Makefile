@@ -190,6 +190,30 @@ src/Game/Scenes/SceneOne.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.s
 .PHONY : src/Game/Scenes/SceneOne.cpp.s
 
+src/core/audio/AudioManager.o: src/core/audio/AudioManager.cpp.o
+.PHONY : src/core/audio/AudioManager.o
+
+# target to build an object file
+src/core/audio/AudioManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o
+.PHONY : src/core/audio/AudioManager.cpp.o
+
+src/core/audio/AudioManager.i: src/core/audio/AudioManager.cpp.i
+.PHONY : src/core/audio/AudioManager.i
+
+# target to preprocess a source file
+src/core/audio/AudioManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.i
+.PHONY : src/core/audio/AudioManager.cpp.i
+
+src/core/audio/AudioManager.s: src/core/audio/AudioManager.cpp.s
+.PHONY : src/core/audio/AudioManager.s
+
+# target to generate assembly for a file
+src/core/audio/AudioManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VENGecs.dir/build.make CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.s
+.PHONY : src/core/audio/AudioManager.cpp.s
+
 src/core/components/ParticleSys.o: src/core/components/ParticleSys.cpp.o
 .PHONY : src/core/components/ParticleSys.o
 
@@ -398,6 +422,9 @@ help:
 	@echo "... src/Game/Scenes/SceneOne.o"
 	@echo "... src/Game/Scenes/SceneOne.i"
 	@echo "... src/Game/Scenes/SceneOne.s"
+	@echo "... src/core/audio/AudioManager.o"
+	@echo "... src/core/audio/AudioManager.i"
+	@echo "... src/core/audio/AudioManager.s"
 	@echo "... src/core/components/ParticleSys.o"
 	@echo "... src/core/components/ParticleSys.i"
 	@echo "... src/core/components/ParticleSys.s"

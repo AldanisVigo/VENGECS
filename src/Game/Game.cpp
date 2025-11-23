@@ -6,6 +6,8 @@
 #include <SDL2/SDL_image.h>
 #include <iostream>
 
+bool Game::running = true;
+
 bool Game::init(const char* title, int width, int height)
 {
     if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER) != 0) {
@@ -46,23 +48,37 @@ bool Game::init(const char* title, int width, int height)
 
 void Game::run()
 {
-    bool running = true;
+    std::cout << "Game running" << std::endl;
     Uint32 prev = SDL_GetTicks();
 
     while (running) {
         SDL_Event e;
         while (SDL_PollEvent(&e)) {
             if (e.type == SDL_QUIT) running = false;
+
+            if (e.type == SDL_WINDOWEVENT) {
+                if (e.window.event == SDL_WINDOWEVENT_FOCUS_GAINED)
+                    SceneManager::windowFocused = true;
+
+                if (e.window.event == SDL_WINDOWEVENT_FOCUS_LOST)
+                    SceneManager::windowFocused = false;
+            }
         }
 
         Uint32 now = SDL_GetTicks();
         float dt = (now - prev) / 1000.0f;
         prev = now;
 
-        // Update the current scene
-        SceneManager::update(dt);
+        // ⛔ If window NOT focused → freeze physics
+        if (!SceneManager::windowFocused) {
+            dt = 0.0f;      // <- Makes gravity & motion stop
+            std::cout << "[Game] Window not focused, dt=0\n";
+        }else{
+            SceneManager::update(dt);
+        }
     }
 }
+
 
 void Game::shutdown()
 {

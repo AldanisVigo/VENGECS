@@ -1,6 +1,6 @@
 CMakeFiles/VENGecs.dir/src/main.cpp.o: \
   /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/main.cpp \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/util/sdl_init.h \
+  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Game.h \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL.h \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_main.h \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_stdinc.h \
@@ -350,7 +350,6 @@ CMakeFiles/VENGecs.dir/src/main.cpp.o: \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_version.h \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_locale.h \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_misc.h \
-  /opt/homebrew/Cellar/sdl2_image/2.8.8/include/SDL2/SDL_image.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ios.h \
@@ -858,10 +857,4 @@ CMakeFiles/VENGecs.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/scenemanager/SceneManager.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/core/scenemanager/Scene.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/SceneOne.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/scenemanager/Scene.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/util/TextureLoader.h \
-  /Users/vigobeatz/Documents/Programming/CPP/VENGecs/src/Game/Scenes/../../core/entity/Entity.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h

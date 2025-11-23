@@ -3,6 +3,7 @@
 
 std::unordered_map<std::string, Scene*> SceneManager::scenes;
 Scene* SceneManager::current = nullptr;
+bool SceneManager::windowFocused = true;
 
 void SceneManager::addScene(const std::string& name, Scene* scene) {
     scenes[name] = scene;

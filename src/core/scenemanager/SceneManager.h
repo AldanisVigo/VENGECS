@@ -5,6 +5,7 @@
 
 class SceneManager {
 public:
+    static bool windowFocused;
     static void addScene(const std::string& name, Scene* scene);
     static void switchTo(const std::string& name);
     static void update(float dt);

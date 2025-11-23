@@ -13,11 +13,14 @@ void particleSystemUpdate(float dt) {
             p.x += p.vx * dt;
             p.y += p.vy * dt;
 
-            // Apply gravity
+            // Apply particle gravity
             if (sys.particlesFollowGravity) {
                 p.vx += sys.gravityX * dt;
                 p.vy += sys.gravityY * dt;
             }
+
+            // Apply actual gravity
+            p.vy += 40.8f * dt;
 
             // Apply noise
             float noiseX = (static_cast<float>(rand()) / RAND_MAX - 0.5f) * sys.noiseX;

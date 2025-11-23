@@ -47,7 +47,7 @@ void addParticleSystem(Entity e, int particleCount, ParticleSystemShape shape,
             p.vx = cos(angle) * speed;
             p.vy = sin(angle) * speed;
         } else { // Linear
-            p.vx = 50.0f + static_cast<float>(rand()) / RAND_MAX * 50.0f;
+            p.vx = 0.0f;
             p.vy = 0.0f;
         }
 

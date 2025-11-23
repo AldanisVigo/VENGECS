@@ -1,36 +1,17 @@
-#include "core/util/sdl_init.h"
-#include "core/scenemanager/SceneManager.h"
-#include "Game/Scenes/SceneOne.h"
+#include "Game/Game.h"
+#include <iostream>
 
 int main() {
-    if (!initSDL("VENGecs", 800, 600))
-        return 1;
+    Game game;
 
-    // Create a SceneOne instance
-    SceneOne* sceneOne = new SceneOne();
-
-    // Register the scene with the SceneManager
-    SceneManager::addScene("game", sceneOne);
-
-    // Start with the "game" scene
-    SceneManager::switchTo("game");
-
-    bool running = true;
-    Uint32 prev = SDL_GetTicks();
-
-    while (running) {
-        SDL_Event e;
-        while (SDL_PollEvent(&e))
-            if (e.type == SDL_QUIT) running = false;
-
-        Uint32 now = SDL_GetTicks();
-        float dt = (now - prev) / 1000.0f;
-        prev = now;
-
-        // Update the current scene
-        SceneManager::update(dt);
+    if (!game.init("VENGecs", 800, 600)) {
+        std::cout << "Failed to initialize SDL / game\n"; 
+        return 1; // Failed to initialize SDL / game
     }
 
-    shutdownSDL();
+    game.run();      // This contains the main loop with window focus handling
+    game.shutdown(); // Clean up SDL, scenes, etc.
+
     return 0;
 }
+

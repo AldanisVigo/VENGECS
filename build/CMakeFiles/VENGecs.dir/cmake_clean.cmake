@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/VENGecs.dir/src/Game/Game.cpp.o.d"
   "CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o"
   "CMakeFiles/VENGecs.dir/src/Game/Scenes/SceneOne.cpp.o.d"
+  "CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o"
+  "CMakeFiles/VENGecs.dir/src/core/audio/AudioManager.cpp.o.d"
   "CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o"
   "CMakeFiles/VENGecs.dir/src/core/components/ParticleSys.cpp.o.d"
   "CMakeFiles/VENGecs.dir/src/core/components/Transform.cpp.o"
