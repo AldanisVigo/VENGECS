@@ -18,7 +18,7 @@
   Switch between scenes while keeping persistent entities alive.
 - **SDL2 integration**  
   Easy-to-use wrapper for window and renderer management.
-- **SDL2 integration**  
+- **Particle Engine**  
   Particle engine for explosions and other cool effects.
 
 
