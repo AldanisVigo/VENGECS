@@ -38,7 +38,7 @@
 ### Prerequisites
 
 - C++17 or higher
-- SDL2 and SDL2_image installed
+- SDL2, SDL2_image and SDL2_mixer installed
 
 **macOS (Homebrew)**
 
