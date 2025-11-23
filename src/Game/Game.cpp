@@ -8,6 +8,8 @@
 #include "../core/scenemanager/SceneManager.h"
 #include "Scenes/SceneOne.h"
 #include <iostream>
+#include "../core/system/ParticleRenderer.h"
+#include "../core/audio/AudioManager.h"
 
 bool Game::running = true;
 
@@ -40,6 +42,14 @@ bool Game::init(const char* title, int width, int height, bool fs)
         SDL_Quit();
         return false;
     }
+
+
+    if (!AudioManager::init()) {
+        return false;
+    }
+
+    // Load default particle texture
+    loadParticleTexture();
 
     // Register and switch to the first scene
     SceneOne* sceneOne = new SceneOne();

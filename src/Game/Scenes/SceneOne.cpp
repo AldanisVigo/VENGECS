@@ -17,26 +17,14 @@
 #include "../../core/audio/AudioManager.h"
 #include "../../core/components/Collider.h"
 
-
-void SceneOne::onLoad() {
-    loadParticleTexture();
-    if (!AudioManager::init()) return;
-
+void loadBackgroundMusicAndSFX(){
     AudioManager::loadMusic("bgm", "../assets/background.mp3");
     AudioManager::playMusic("bgm");
-
     AudioManager::loadSFX("jump", "../assets/boom.mp3");
+}
 
-    Entity player       = createEntity();
-    Entity platformOne  = createEntity();
-    Entity platformTwo  = createEntity();
-
-    Animation idleAnim = { 
-        0,      // startFrame
-        1,      // numFrames
-        0.0f,
-        0.0f
-    };
+void generatePlayer(Entity* player) {
+    
 
     std::unordered_map<std::string, Animation> playerAnims = {
         {"walk",   {0, 4, 0.2f, 0.0f}},
@@ -45,68 +33,83 @@ void SceneOne::onLoad() {
     };
 
     // Player
-    addTransform(player, 210.0f, 50.0f);
-    addSprite(player,
+    addTransform(*player, 210.0f, 50.0f);
+    addSprite(*player,
               loadTexture("../assets/sprite.png"),
               18.0f, 35.0f,
               playerAnims,
               "idle",
               false);
 
-    addCollider(player,   18.0f, 35.0f, false);
-    addRigidbody(player,  20.0, 0, 100.0f);
-    addGravity(player,    50.0);
-    addInput(player, SDL_SCANCODE_A, SDL_SCANCODE_D,
+    addCollider(*player,   18.0f, 35.0f, false);
+    addRigidbody(*player,  20.0, 0, 100.0f);
+    addGravity(*player,    50.0);
+    addInput(*player, SDL_SCANCODE_A, SDL_SCANCODE_D,
                      SDL_SCANCODE_W, SDL_SCANCODE_S,
                      SDL_SCANCODE_SPACE,SDL_SCANCODE_ESCAPE,
                      SDL_SCANCODE_RETURN,  20.0f);
+}
 
+void generatePlatformOne(Entity* platformOne){
     // Platform One
-    addTransform(platformOne, 200.0f, 200.0f);
-    addSprite(platformOne, loadTexture("../assets/platform.png"),
+    addTransform(*platformOne, 200.0f, 200.0f);
+    addSprite(*platformOne, loadTexture("../assets/platform.png"),
               100.0f, 30.0f,
-              { {"idle", idleAnim} },
+              { {"idle", { 
+                    0,      // startFrame
+                    1,      // numFrames
+                    0.0f,
+                    0.0f
+               }}},
               "idle", false);
 
-    addCollider(platformOne, 100.0f, 30.0f, false);
-    addRigidbody(platformOne, 0.0f, 0.0f, 3000000.0f);
+    addCollider(*platformOne, 100.0f, 30.0f, false);
+    addRigidbody(*platformOne, 0.0f, 0.0f, 3000000.0f);
 
+}
+
+void generatePlatformTwo(Entity* platformTwo){
     // Platform Two
-    addTransform(platformTwo, 50.0f, 140.0f);
-    addSprite(platformTwo, loadTexture("../assets/platform.png"),
+    addTransform(*platformTwo, 50.0f, 140.0f);
+    addSprite(*platformTwo, loadTexture("../assets/platform.png"),
               100.0f, 30.0f,
-              { {"idle", idleAnim} },
+              { {"idle", { 
+                    0,      // startFrame
+                    1,      // numFrames
+                    0.0f,
+                    0.0f
+              }}},
               "idle", false);
 
-    addCollider(platformTwo, 100.0f, 30.0f, false);
-    addRigidbody(platformTwo, 0.0f, 0.0f, 3000000.0f);
-    
+    addCollider(*platformTwo, 100.0f, 30.0f, false);
+    addRigidbody(*platformTwo, 0.0f, 0.0f, 3000000.0f);
+}
 
+void generateBushes(Entity* bushOne, Entity* bushTwo, Entity* platformTwo, Entity* platformOne){
     // Add an animated bush to the scene
-    this->bushOne = createEntity();
     std::unordered_map<std::string, Animation> bushAnims = {
         {"sway",   {0, 2, 0.2f, 0.0f}},
     };
-    float bushX = transforms[platformTwo].x + (sprites[platformTwo].width - 25.0f) / 2; // center bush
-    float bushY = transforms[platformTwo].y - 28.0f - 1; // top of bush sits on top of platform
-    addTransform(this->bushOne, bushX, bushY);
-    addSprite(this->bushOne, loadTexture("../assets/bush.png"), 25.0f, 28.0f, bushAnims, "sway", false);
-    addCollider(this->bushOne, 25.0f, 28.0f, true);
+    float bushX = transforms[*platformTwo].x + (sprites[*platformTwo].width - 25.0f) / 2; // center bush
+    float bushY = transforms[*platformTwo].y - 28.0f - 1; // top of bush sits on top of platform
+    addTransform(*bushOne, bushX, bushY);
+    addSprite(*bushOne, loadTexture("../assets/bush.png"), 25.0f, 28.0f, bushAnims, "sway", false);
+    addCollider(*bushOne, 25.0f, 28.0f, true);
 
 
-    // Add an animated bush to the scene
-    this->bushTwo = createEntity();
-    bushX = transforms[platformOne].x + (sprites[platformOne].width - 25.0f) / 2; // center bush
-    bushY = transforms[platformOne].y - 28.0f - 1; // top of bush sits on top of platform
-    addTransform(this->bushTwo, bushX, bushY);
-    addSprite(this->bushTwo, loadTexture("../assets/bush.png"), 25.0f, 28.0f, bushAnims, "sway", false);
-    addCollider(this->bushTwo, 25.0f, 28.0f, true);
+    // Add another animated bush to the scene
+    bushX = transforms[*platformOne].x + (sprites[*platformOne].width - 25.0f) / 2; // center bush
+    bushY = transforms[*platformOne].y - 28.0f - 1; // top of bush sits on top of platform
+    addTransform(*bushTwo, bushX, bushY);
+    addSprite(*bushTwo, loadTexture("../assets/bush.png"), 25.0f, 28.0f, bushAnims, "sway", false);
+    addCollider(*bushTwo, 25.0f, 28.0f, true);
+}
 
+void generateInitParticles(Entity* particleEmitter, Entity* player){
     // Create a particle entity
-    Entity particleEmitter = createEntity();
-    addTransform(particleEmitter, transforms[player].x, transforms[player].y);
+    addTransform(*particleEmitter, transforms[*player].x, transforms[*player].y);
     addParticleSystem(
-        particleEmitter,
+        *particleEmitter,
         1000,              // 50 particles
         CircularSpread,    
         1.0f,              // min lifetime (seconds)
@@ -115,6 +118,25 @@ void SceneOne::onLoad() {
         0.0f, 50.0f,       // gravity X/Y (smaller)
         2.0f, 2.0f         // noise X/Y (smaller)
     );
+}
+
+
+void SceneOne::onLoad() {
+    // Initialize entities
+    player       = createEntity();
+    platformOne  = createEntity();
+    platformTwo  = createEntity();
+    bushOne = createEntity();
+    bushTwo = createEntity();
+    particleEmitter = createEntity();
+
+
+    loadBackgroundMusicAndSFX();
+    generatePlayer(&player);
+    generatePlatformOne(&platformOne);
+    generatePlatformTwo(&platformTwo);
+    generateBushes(&bushOne,&bushTwo,&platformTwo,&platformOne);
+    generateInitParticles(&particleEmitter,&player);
 }
 
 void SceneOne::onUpdate(float dt) {
@@ -146,8 +168,6 @@ void SceneOne::onUpdate(float dt) {
             sprites[bushOne].flipH = false;
             sprites[bushTwo].flipH = false;
         }
-
-        
     }
 
     renderSystem();

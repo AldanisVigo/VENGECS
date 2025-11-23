@@ -1,4 +1,5 @@
 # VENGECS
+![Preview](./preview.gif)
 
 **VENGECS** is a lightweight **C++ ECS (Entity-Component-System) framework** powered by **SDL2**, designed for 2D game development. It provides a modular, fast, and flexible architecture for creating games while keeping systems decoupled and efficient.
 

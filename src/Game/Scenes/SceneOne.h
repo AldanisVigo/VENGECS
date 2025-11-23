@@ -14,5 +14,5 @@ public:
     void onUnload() override {}
 
 private:
-    Entity bushOne, bushTwo;
+    Entity bushOne, bushTwo, player, platformOne, platformTwo, particleEmitter;
 };
